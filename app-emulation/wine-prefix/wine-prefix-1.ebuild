@@ -7,7 +7,7 @@ SLOT="0"
 KEYWORDS="amd64"
 DEPEND="acct-group/wine"
 
-src_compile() {
+src_prepare() {
 	WINEPREFIX="Wine" wineboot --init
 
 }
