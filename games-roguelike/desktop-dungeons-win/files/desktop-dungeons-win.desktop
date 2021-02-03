@@ -5,4 +5,4 @@ Type=Application
 Terminal=false
 Exec=/opt/desktop-dungeons-win
 Name=Desktop Dungeons
-Icon=
+Icon=desktio-dungeons-win

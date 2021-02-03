@@ -9,6 +9,7 @@ KEYWORDS="amd64"
 S="${WORKDIR}"
 FEATURES='-sandbox -usersandbox'
 SANDBOX_WRITE="/dev/input:/dev/bus:/dev/null"
+DEPEND="virtual/wine"
 pkg_setup() {
 	enewgroup wine
 	enewuser wine -1 -1  /dev/null wine

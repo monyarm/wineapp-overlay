@@ -8,12 +8,12 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="amd64"
 S="${WORKDIR}"
-SRC_URI="http://www.qcfdesign.com/Files/DesktopDungeons/DesktopDungeons_v021.exe"
-DEPEND="apps-emulation/wine-prefix"
+SRC_URI="http://www.qcfdesign.com/Files/DesktopDungeons/DesktopDungeons_v021.exe -> DD.zip"
+DEPEND="app-emulation/wine-prefix"
 RESTRICT="mirror"
 
 src_unpack() {
-	unpack DesktopDungeons_v021.exe
+	unpack DD.zip
 }
 
 src_install() {
